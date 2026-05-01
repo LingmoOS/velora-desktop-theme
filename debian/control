@@ -1,15 +1,15 @@
-Source: deepin-desktop-theme
+Source: velora-desktop-theme
 Section: devel
 Priority: optional
-Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: debhelper (>= 9),
    cmake,
    qt6-base-dev,
    qt6-base-private-dev,
    qt6-tools-dev,
    libdtk6widget-dev
-Standards-Version: 3.9.8
-Homepage: http://www.deepin.org
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/velora-desktop-theme
 
 Package: deepin-theme-bloom
 Architecture: all
