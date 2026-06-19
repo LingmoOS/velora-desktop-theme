@@ -9,15 +9,7 @@ if(NOT DEFINED VERSION)
 endif()
 add_definitions(-DVERSION="${VERSION}")
 
-add_subdirectory("bloom")
-add_subdirectory("vintage")
-add_subdirectory("flow")
-add_subdirectory("hazy-color")
-add_subdirectory("organic-glass")
-add_subdirectory("macaron")
-add_subdirectory("square")
-add_subdirectory("nirvana")
-add_subdirectory("origin")
+add_subdirectory("lingmo")
 
 add_subdirectory("tools")
 
