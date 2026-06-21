@@ -9,7 +9,7 @@ DarkTheme=DarkTheme
 Hidden=false
 
 [DefaultTheme]
-AppTheme=lingmo
+AppTheme=deepin
 StandardFont=Source Han Sans SC
 MonospaceFont=Noto Mono
 FontSize=10.5
@@ -27,7 +27,7 @@ IconTheme=Lingmo
 CursorTheme=lingmo
 
 [DarkTheme]
-AppTheme=lingmo-dark
+AppTheme=deepin-dark
 DockBackground=#000000
 LauncherBackground=#000000
 WindowShadow=#222222
