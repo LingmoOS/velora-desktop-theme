@@ -1,4 +1,4 @@
-Source: velora-desktop-theme
+Source: lingmo-desktop-theme
 Section: devel
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
    qt6-tools-dev,
    libdtk6widget-dev
 Standards-Version: 4.5.0
-Homepage: https://github.com/LingmoOS/velora-desktop-theme
+Homepage: https://github.com/LingmoOS/lingmo-desktop-theme
 
 Package: lingmo-theme-classic
 Architecture: all
