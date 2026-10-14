@@ -1,5 +1,8 @@
 [Icon Theme]
 Name=Lingmo
+# 没有 Inherits 时只会隐式回退 hicolor，Lingmo 未覆盖的图标就会“显示不出来”。
+# 这里把完整的 bloom 与 Adwaita 接进回退链。
+Inherits=bloom,Adwaita,hicolor
 Example=x-directory-normal
 FollowsColorScheme=true
 Directories=actions/64

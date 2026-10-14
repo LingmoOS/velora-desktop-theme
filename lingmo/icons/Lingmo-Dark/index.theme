@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Lingmo-Dark
 Comment=Lingmo Icon Theme
-Inherits=Adwaita
+Inherits=bloom,Adwaita,hicolor
 Example=folder
 
 # KDE/Plasma Stuff

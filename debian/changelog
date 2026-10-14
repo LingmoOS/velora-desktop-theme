@@ -1,3 +1,14 @@
+velora-desktop-theme (3.0.2.lingmo5u1) unstable; urgency=medium
+
+  * fix: Lingmo 图标主题补上继承链，修掉部分图标不显示
+    - lingmo/icons/lingmo/index.theme 缺少 Inherits=，按规范只会隐式回退到
+      hicolor，于是 Lingmo 主题未覆盖的图标（文件夹/设备/mime/状态等）找不到
+      替代品，表现为“有些图标不显示”。补 Inherits=bloom,Adwaita,hicolor
+    - Lingmo-Dark 的 Inherits=Adwaita 同样补上 bloom 回退
+    - debian/lingmo-theme-classic.install 只有 usr/share/*/lingmo*，匹配是
+      大小写敏感的，漏掉了 usr/share/icons/Lingmo-Dark，补上该行
+ -- Lingmo OS Team <team@lingmo.org>  Wed, 14 Oct 2026 16:39:57 +0800
+
 velora-desktop-theme (3.0.1.lingmo.1) unstable; urgency=medium
 
   * new release for Lingmo OS.
