@@ -23,7 +23,7 @@ WindowShadow=#DDDDDD
 ActiveColor=#1F6EE7
 Wallpaper=file:///usr/share/wallpapers/lingmo/default.jpg
 LockBackground=file:///usr/share/wallpapers/lingmo/default-dark.jpg
-IconTheme=Lingmo
+IconTheme=lingmo
 CursorTheme=lingmo
 
 [DarkTheme]
